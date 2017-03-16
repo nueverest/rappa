@@ -4,7 +4,7 @@ A Continuous Integration (CI) Wrapper built around [Zappa](https://github.com/Mi
 Leverages Travis CI and Github API to trigger testing, coverage, VCS tagging, staging, and serverless deployment tasks 
 in response to developer defined events e.g. VCS Commit, Manual Triggering, etc.
 
-Features a serverless admin interface.
+Features a servable admin interface.
 
 # requirements - see requirements.txt for most up-to-date list.
 python 2.7.13+ or python 3.4+ [download](https://www.python.org/downloads/)
