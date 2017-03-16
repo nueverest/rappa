@@ -6,10 +6,16 @@ in response to developer defined events e.g. VCS Commit, Manual Triggering, etc.
 
 Features a servable admin interface.
 
-# Requirements - see requirements.txt.
-python 2.7.13+ or python 3.4+ [download](https://www.python.org/downloads/)
+### Requirements
+python 2.7.13+ [download](https://www.python.org/downloads/)
 
-Add these to a [virtualenv](https://github.com/pypa/virtualenv)
+> #####What about python3? 
+> Short Answer: AWS lambda does not support it yet. 
+>
+> You can go [to this AWS forum post](https://forums.aws.amazon.com/thread.jspa?threadID=230765) to voice your support for python3. 
+> Zappa does not support python3 until AWS does. See [issue 6](https://github.com/Miserlou/Zappa/issues/6).
+
+Add these to a [virtualenv](https://github.com/pypa/virtualenv) - see requirements.txt
 * [flask](https://github.com/pallets/flask)
 * [flask-s3](https://github.com/e-dard/flask-s3)
 * [blowdrycss](https://github.com/nueverest/blowdrycss)
