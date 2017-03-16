@@ -1,4 +1,4 @@
-# rappa
+# uh rappa fo zappa
 A Continuous Integration (CI) Wrapper built around [Zappa](https://github.com/Miserlou/Zappa)
 
 Leverages Travis CI and Github API to trigger testing, coverage, VCS tagging, staging, and serverless deployment tasks 
