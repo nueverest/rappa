@@ -19,6 +19,7 @@ Add these to a [virtualenv](https://github.com/pypa/virtualenv)
 * [pygithub](https://github.com/PyGithub/PyGithub)
 * [travispy](https://github.com/menegazzo/travispy)
 
-AWS account
-AWS access key with appropriate permissions
-AWS S3 bucket
+Setup AWS
+* Create or Login to AWS account
+* Generate AWS access key with appropriate permissions
+* Create or Pick an AWS S3 bucket
